@@ -6,10 +6,8 @@
   </head>
   <body>
     <?php
-    function returnString() {
-      return ('Aller salut et merci bien pour le poisson');
-    }
-    echo returnString();
+    $month=['janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre'];
+    echo($month[2]);
     ?>
   </body>
 </html>
