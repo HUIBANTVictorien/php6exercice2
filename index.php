@@ -1,20 +1,15 @@
-<?php
-$isEasy = true;
-if ($isEasy == true) {
-  echo ('C\'est facile !'.'<br>');
-}
-else {
-  echo ('C\'est difficile !'.'<br>');
-}
-
-switch ($isEasy) {
-
-  case true:
-  echo ('C\'est facile !');
-  break;
-
-  case false:
-  echo ('C\'est difficile !');
-  break;
-}
-?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercice 2 partie 4 php</title>
+  </head>
+  <body>
+    <?php
+    function returnString() {
+      return ('Aller salut et merci bien pour le poisson');
+    }
+    echo returnString();
+    ?>
+  </body>
+</html>
