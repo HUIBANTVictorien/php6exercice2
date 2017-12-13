@@ -2,12 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>exercice 2 partie 4 php</title>
+    <title>exercice 2 partie 6 php</title>
   </head>
   <body>
-    <?php
-    $month=['janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre'];
-    echo($month[2]);
-    ?>
+    <a href="index.php?nom=Nemare&amp;prenom=Jean">Age</a>
+    <p><?php
+    if (isset($_GET['age'])) {
+      echo 'L\'age est de ' .$_GET['age'];
+    } else {
+      echo 'L\'age n\'est pas renseigné';
+    };
+
+     ?></p>
+
   </body>
 </html>
